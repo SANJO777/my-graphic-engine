@@ -1,2 +1,53 @@
+# === INCLUYE archivos clave del repositorio ===
 **/README.md
 **/LICENSE
+
+# === Archivos de Visual Studio ===
+.vs/
+**/.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.cache
+*.pdb
+*.sdf
+*.ncb
+*.opensdf
+*.tlog
+*.idb
+*.ipch
+*.log
+*.unsuccessfulbuild
+*.VC.db-wal
+*.VC.db-shm
+*.vcxproj.user
+
+# === Archivos de compilación C++ ===
+*.obj
+*.exe
+*.lib
+*.dll
+*.ilk
+
+# === Carpetas de salida comunes ===
+Debug/
+Release/
+x64/
+x86/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+
+# === Archivos temporales u ocultos ===
+*.aps
+*.tmp
+*.bak
+*.scc
+*.pch
+
+# === Archivos ocultos del sistema operativo ===
+.DS_Store
+Thumbs.db
+desktop.ini
